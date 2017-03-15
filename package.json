@@ -1,0 +1,12 @@
+{
+  "name": "codeigniter3-snippets",
+  "version": "0.0.0",
+  "description": "Snippets for php framework codeigniter",
+  "repository": "https://github.com/sagarkaurav/codeigniter3-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

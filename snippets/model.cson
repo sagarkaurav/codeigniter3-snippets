@@ -1,0 +1,12 @@
+'.php':
+  'Codeigniter model class':
+    'prefix': 'ci-m'
+    'body': """
+    <?php
+    defined('BASEPATH') OR exit('No direct script access allowed');
+
+    class ${1:Model_name} extends CI_Model{
+
+    }
+    ?>
+    """

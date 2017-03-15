@@ -1,0 +1,26 @@
+'.php':
+  'php short echo tag':
+    'prefix': 'ci-et'
+    'body': '<?= $1 ?>'
+  'php short tag':
+    'prefix': 'ci-t'
+    'body': '<? $1 ?>'
+  'php alternative if':
+    'prefix': 'ci-if'
+    'body': """
+    <? if($1): ?>
+    <? endif; ?>
+    """
+  'php alternative if else':
+    'prefix': 'ci-ifelse'
+    'body': """
+    <? if($1): ?>
+    <? else ?>
+    <? endif; ?>
+    """
+  'php alternative foreach':
+    'prefix': 'ci-foreach'
+    'body': """
+    <? foreach($1) ?>
+    <? endforeach; ?>
+    """

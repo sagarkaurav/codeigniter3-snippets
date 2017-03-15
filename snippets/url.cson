@@ -1,0 +1,4 @@
+'.php':
+  'base url':
+    'prefix': 'ci-bu'
+    'body': "<?= base_url('$1'); ?>"

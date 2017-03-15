@@ -1,0 +1,10 @@
+'.php':
+  'load library':
+    'prefix': 'ci-ll'
+    'body': "\$this->load->library('$1');"
+  'load helper':
+    'prefix': 'ci-lh'
+    'body': "\$this->load->helper('$1');"
+  'load database':
+    'prefix': 'ci-ld'
+    'body': "\$this->load->database();"
