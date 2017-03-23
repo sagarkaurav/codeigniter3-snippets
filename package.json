@@ -1,6 +1,6 @@
 {
   "name": "codeigniter3-snippets",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Snippets for php framework codeigniter",
   "repository": "https://github.com/sagarkaurav/codeigniter3-snippets",
   "license": "MIT",
@@ -8,13 +8,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "keywords": [
-   "snippets",
-   "codeigniter snippets",
-   "php snippets",
-   "codeigniter",
-   "codeigniter3",
-   "php",
-   "php7"
- ],
+    "snippets",
+    "codeigniter snippets",
+    "php snippets",
+    "codeigniter",
+    "codeigniter3",
+    "php",
+    "php7"
+  ],
   "dependencies": {}
 }
