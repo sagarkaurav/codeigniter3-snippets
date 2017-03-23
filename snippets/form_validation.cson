@@ -1,0 +1,4 @@
+'.php':
+  ' Form validation set rules function':
+    'prefix': 'ci-fv-set_rules'
+    'body': "\$this->form_validation->set_rules('${1:form_field_name}', '${2:Label_name}', '${3:validations}');"

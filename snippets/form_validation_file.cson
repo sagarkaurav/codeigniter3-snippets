@@ -1,0 +1,21 @@
+'.php':
+  'Form validation cofig file setup':
+    'prefix': 'ci-fv-c-base'
+    'body': """
+    <?php
+    //use ci-fv-c-set_rules to generate rules array.
+    $config = array(
+
+    );
+    ?>
+    """
+
+  'Form validation setting using config file.':
+    'prefix': 'ci-fv-c-set_rules'
+    'body': """
+      array(
+            'field' => '${1:form_field_name}',
+            'label' => '${2:label}',
+            'rules' => '${3:validations}'
+          )
+    """

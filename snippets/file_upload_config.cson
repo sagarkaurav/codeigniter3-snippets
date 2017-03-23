@@ -1,0 +1,60 @@
+'.php':
+  'File upload config file complete template':
+    'prefix': 'ci-conf-file-upload'
+    'body': """
+    <?php
+    //uncomment the config array and fill the values you want to change
+    /*
+    $config = array(
+
+      //Default Value: none| options: none
+      //'upload_path' => '',
+
+      //Default Value: none| options: none
+      //'allowed_types' => '',
+
+      //Default Value: none| options: Desired file name
+      //'file_name' => '',
+
+      //Default Value: FALSE| options: boolean(TRUE or FALSE)
+      //'file_ext_tolower' => TRUE,
+
+      //Default Value: FALSE| options: boolean(TRUE or FALSE)
+      //'overwrite' => TRUE,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'max_size' => 1000,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'max_width' => 1024,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'max_height' => 1024,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'min_width' => 1024,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'min_height' => 1024,
+
+      //Default Value: 0(i.e. no limit)| options: none
+      //'max_filename' => 100,
+
+      //Default Value: 100| options: none
+      //'max_filename_increment' => 1000,
+
+      //Default Value: FALSE| options: boolean(TRUE or FALSE)
+      //'encrypt_name' => TRUE,
+
+      //Default Value: TRUE| options: boolean(TRUE or FALSE)
+      //'remove_spaces' => FALSE,
+
+      //Default Value: TRUE| options: boolean(TRUE or FALSE)
+      //'detect_mime' => FALSE,
+
+      //Default Value: TRUE| options: boolean(TRUE or FALSE)
+      //'mod_mime_fix' => FALSE
+    );
+    */
+    ?>
+    """

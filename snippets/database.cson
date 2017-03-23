@@ -1,0 +1,28 @@
+'.php':
+  'Database get query':
+    'prefix': 'ci-db-get'
+    'body': "\$this->db->get('${1:table_name}',${2:limit},${3:offset});"
+
+  'Database get where query':
+    'prefix': 'ci-db-get_where'
+    'body': "\$this->db->get('${1:table_name}',['${2:column_name}'=>${3:value}],${3:limit},${4:offset});"
+
+  'Database insert query':
+    'prefix': 'ci-db-insert'
+    'body': "\$this->db->insert('${1:table_name}',['${2:column_name}'=>${3:value}]);"
+
+  'Database update query':
+    'prefix': 'ci-db-update'
+    'body': "\$this->db->update('${1:table_name}',['${2:column_name}'=>${3:value}],['${4:column_name}'=>${5:value}]);"
+
+  'Database update query with string condtion':
+    'prefix': 'ci-db-update-s'
+    'body': "\$this->db->update('${1:table_name}',['${2:column_name}'=>${3:value}],\"${4:id = $id}\");"
+
+  'Database delete query':
+    'prefix': 'ci-db-delete'
+    'body': "\$this->db->delete('${1:table_name}',['${2:column_name}'=>${3:value}]);"
+
+  'Database delete query with string condtion':
+    'prefix': 'ci-db-delete-s'
+    'body': "\$this->db->delete('${1:table_name}',\"${2:id = $id}\");"
