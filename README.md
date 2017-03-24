@@ -6,6 +6,8 @@ Example:-
 * type `ci-bu` to get `<?= base_url(""); ?>`
 all snippets triggers starts with ci
 
+[![code.gif](https://s26.postimg.org/4k1p8k921/code.gif)](https://postimg.org/image/hbfvf2itx/)
+
 Snippets list :-
 
 * type  `ci-c` to get controller class template.
