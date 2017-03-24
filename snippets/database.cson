@@ -15,7 +15,7 @@
     'prefix': 'ci-db-update'
     'body': "\$this->db->update('${1:table_name}',['${2:column_name}'=>${3:value}],['${4:column_name}'=>${5:value}]);"
 
-  'Database update query with string condtion':
+  'Database update query with string condition':
     'prefix': 'ci-db-update-s'
     'body': "\$this->db->update('${1:table_name}',['${2:column_name}'=>${3:value}],\"${4:id = $id}\");"
 
@@ -23,6 +23,6 @@
     'prefix': 'ci-db-delete'
     'body': "\$this->db->delete('${1:table_name}',['${2:column_name}'=>${3:value}]);"
 
-  'Database delete query with string condtion':
+  'Database delete query with string condition':
     'prefix': 'ci-db-delete-s'
     'body': "\$this->db->delete('${1:table_name}',\"${2:id = $id}\");"

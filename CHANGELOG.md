@@ -8,3 +8,6 @@
 * added snippets for file upload config file
 * added snippets for form validation
 * added snippets for file validation config file
+## 1.1.1
+* updated documentation
+* corrected spelling in Database snippets
