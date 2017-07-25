@@ -14,10 +14,10 @@ Snippets list :-
 
 * type  `ci-m` to get model class template.
 
-* type  `ci-bu` to get `<?= base_url(""); ?>`
+* type  `ci-bu` to get `<?php echo base_url(""); ?>`
 
-* type  `ci-et` to get `<?= ?>`
-* type  `ci-t` to get `<? ?>`
+* type  `ci-et` to get `<?php ?>`
+* type  `ci-t` to get `<?php ?>`
 * type  `ci-if` to get alternate php if tag
 * type  `ci-ifelse` to get alternate if else tag
 * type  `ci-foreach` to get alternate foreach tag

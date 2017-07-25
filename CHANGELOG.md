@@ -11,3 +11,6 @@
 ## 1.1.1
 * updated documentation
 * corrected spelling in Database snippets
+
+### 1.1.2
+* using full php tag instead of short php tag.

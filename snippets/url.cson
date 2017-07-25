@@ -1,4 +1,4 @@
 '.php':
   'base url':
     'prefix': 'ci-bu'
-    'body': "<?= base_url('$1'); ?>"
+    'body': "<?php echo base_url('$1'); ?>"

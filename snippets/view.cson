@@ -1,0 +1,4 @@
+'.php':
+  'load view':
+    'prefix': 'ci-v'
+    'body': "\$this->load->view('${1:view_name}');"

@@ -1,26 +1,26 @@
 '.php':
   'php short echo tag':
     'prefix': 'ci-et'
-    'body': '<?= $1 ?>'
+    'body': '<?php echo $1 ?>'
   'php short tag':
     'prefix': 'ci-t'
-    'body': '<? $1 ?>'
+    'body': '<?php $1 ?>'
   'php alternative if':
     'prefix': 'ci-if'
     'body': """
-    <? if($1): ?>
-    <? endif; ?>
+    <?php if($1): ?>
+    <?php endif; ?>
     """
   'php alternative if else':
     'prefix': 'ci-ifelse'
     'body': """
-    <? if($1): ?>
-    <? else ?>
-    <? endif; ?>
+    <?php if($1): ?>
+    <?php else ?>
+    <?php endif; ?>
     """
   'php alternative foreach':
     'prefix': 'ci-foreach'
     'body': """
-    <? foreach($1) ?>
-    <? endforeach; ?>
+    <?php foreach($1) ?>
+    <?php endforeach; ?>
     """
