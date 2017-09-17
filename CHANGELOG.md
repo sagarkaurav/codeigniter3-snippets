@@ -14,3 +14,5 @@
 
 ### 1.1.2
 * using full php tag instead of short php tag.
+### 1.1.3
+* fixed get_where snippet.

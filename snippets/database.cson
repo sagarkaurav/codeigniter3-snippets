@@ -5,7 +5,7 @@
 
   'Database get where query':
     'prefix': 'ci-db-get_where'
-    'body': "\$this->db->get('${1:table_name}',['${2:column_name}'=>${3:value}],${3:limit},${4:offset});"
+    'body': "\$this->db->get_where('${1:table_name}',['${2:column_name}'=>${3:value}],${3:limit},${4:offset});"
 
   'Database insert query':
     'prefix': 'ci-db-insert'
